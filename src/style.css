@@ -1,0 +1,208 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Raleway;
+    font-size: 30px;
+    background: rgba(26, 26, 26, 0.8);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(242, 239, 197, 1);
+    padding:0 10vmin 5vmin;
+}
+
+.personalDetails > h2, h3 {
+    margin: 20px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.personalDetails > h2 {
+    font-size: 4rem;
+}
+
+.section__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(242, 239, 197, 1);
+}
+
+.techStack {
+    height: 100vh;
+    color: rgba(242, 239, 197, 1);
+    padding:0 10vmin 5vmin;
+}
+
+.techStack__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align : center;
+}
+
+.techStack__logos > li {
+    list-style-type: none;
+}
+
+.logos--items > img {
+    height: 130px;
+    width: auto;
+}
+
+.logos--items > p {
+    font-size: 1.5rem;
+}
+
+.logos--items {
+    margin:30px;
+}
+
+.projects {
+    height: auto;
+    color: rgba(242, 239, 197, 1);
+    padding:0 10vmin 5vmin;
+}
+
+.projects__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align : center;
+}
+
+.projects__card {
+    border: 1px solid rgba(242, 239, 197, 1);
+    margin: 30px;
+    width: 280px;
+    height: 420px;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.projects__card__top > img {
+    width: 280px;
+    height: 160px;
+}
+
+.projects__card__bottom {
+    width: 280px;
+    height: 260px;
+}
+
+.projects__describe > p {
+    font-size: 1rem;
+}
+
+.projects__card:hover {
+    transform: translateY(-20px);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.4),
+    10px 24px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(26, 26, 26, 0.85);
+}
+
+.contact {
+    height: 30vh;
+    color: rgba(242, 239, 197, 1);
+    padding:0 10vmin 5vmin;
+}
+
+.contact__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align : center;
+}
+
+.contact__logos ul {
+    position: relative;
+    display: flex;
+}
+
+.contact__logos > li {
+    list-style-type: none;
+    position: relative;
+}
+
+.contact__logos--items img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.contact__logos--items img:hover {
+
+    font-size: 30px;
+    border-radius: 50%;
+    transform: translateY(-10px);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.4),
+    10px 20px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(26, 26, 26, 0.85);
+}
+
+.backTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: rgba(242, 239, 197, 1);
+    padding:0 5vmin 5vmin;
+}
+
+.backTop__link {
+    border: 1 solid rgba(242, 239, 197, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 200px;
+    background: rgba(26, 26, 26, 0.8);
+    color: rgba(242, 239, 197, 1);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+                2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.backTop__link:hover {
+    transform: translateY(-5px);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.4),
+    10px 20px 10px rgba(0, 0, 0, 0.2);
+    background: rgba(26, 26, 26, 0.85);
+    color: white;
+}
+
+.backTop__link a {
+    text-decoration: none;
+}
+.backTop__link a:link {
+    color: rgba(242, 239, 197, 1);
+}
+.backTop__link a:visited {
+    color: rgba(242, 239, 197, 1);
+}
+.backTop__link a:hover {
+    color: rgba(242, 239, 197, 1);
+}
+.backTop__link a:active {
+    color: rgba(242, 239, 197, 1);
+}
